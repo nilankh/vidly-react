@@ -17,6 +17,8 @@ class movies extends Component {
     this.setState({ movies: movies })
   }
 
+
+  
   render() {
      const {length : count} = this.state.movies
       if(count === 0)
